@@ -6,7 +6,13 @@ body {
 }
 
 canvas {
-  display: block;
-  align: center;
 
+  display: block;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: auto;
+  border-color: #7DF0E0;
+  border-width: 8px;
+  border-style: groove;
 }
