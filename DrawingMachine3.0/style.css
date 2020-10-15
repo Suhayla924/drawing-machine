@@ -1,7 +1,12 @@
 html, body {
+  background: #F3EFEE;
   margin: 0;
   padding: 0;
+  align-items: center;
+  alignment: center;
+  align-content: center;
 }
+
 canvas {
   display: block;
 }
