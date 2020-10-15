@@ -1,12 +1,12 @@
-html, body {
+body {
   background: #F3EFEE;
   margin: 0;
   padding: 0;
-  align-items: center;
-  alignment: center;
-  align-content: center;
+  text-align: center;
 }
 
 canvas {
   display: block;
+  align: center;
+
 }
