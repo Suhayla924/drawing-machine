@@ -1,0 +1,18 @@
+body {
+  background: #F3EFEE;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+canvas {
+
+  display: block;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: auto;
+  border-color: #7DF0E0;
+  border-width: 8px;
+  border-style: groove;
+}
