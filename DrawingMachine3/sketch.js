@@ -4,12 +4,12 @@ let = strokeWidth = 25;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(106, 142, 235);
-  strokeWeight(45);
+  strokeWeight(35);
 }
 
 function draw() {
 
-  background(106, 142, 235, .55); // last number is transparency
+  background(106, 142, 235, .85); // last number is transparency
   strokeWeight(strokeWidth);
   noiseOffset -= 0.05;
   strokeWidth = noise(noiseOffset) * 90;
