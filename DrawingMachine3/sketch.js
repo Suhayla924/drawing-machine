@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
 
-  background(106, 142, 235, .85); // last number is transparency
+  background(106, 142, 235, .05); // last number is transparency
   strokeWeight(strokeWidth);
   noiseOffset -= 0.05;
   strokeWidth = noise(noiseOffset) * 90;
