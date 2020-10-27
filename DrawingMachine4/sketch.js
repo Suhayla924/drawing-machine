@@ -4,8 +4,7 @@ let = strokeWidth = 25;
 
 function setup() {
   createCanvas(700, 700);
-  //background(106, 142, 235);
-
+  
   drawGrid();
   strokeWeight(35);
 }
@@ -29,10 +28,10 @@ function keyTyped() {
   } else if (key === 'c') {
     //clear the noCanvas
     clear();
-    background(106, 142, 235);
+    drawGrid();
   } else if (key === 'r') {
     //to make rings on the stroke
-    stroke(81,39,126);
+    stroke (92,250,220);
     circle(mouseX , mouseY, strokeWidth, 40);
     circle(width - mouseX , height - mouseY, strokeWidth, 40);
   }
