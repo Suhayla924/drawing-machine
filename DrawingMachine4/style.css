@@ -1,5 +1,5 @@
 html {
-  background: #F3EFEE;
+  background-color:106, 142, 235;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -14,9 +14,9 @@ body {
 
 canvas {
   margin: auto;
-  top:0;
-  left:0;
-  position: absolute;
+  top:15px;
+  left:15px;
+  position: center;
   z-index: -1;
   display: block;
   border: 10px solid black;
