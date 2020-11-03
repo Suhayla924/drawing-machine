@@ -3,18 +3,31 @@ h1 {
   font-family: Georgia;
   font-size: 45pt;
   text-align: left;
-  text-shadow: 3px 2px #fc947b;
+  text-shadow: 3px 2px #fa4f49;
   margin:auto;
   margin-left: .4in;
   margin-right: .4in;
+  padding: 20px;
 }
 
 h2 {
   color: #331E1C;
   font-family: Georgia;
-  font-size: 25pt;
+  font-size: 28pt;
   text-align: left;
-  text-shadow: 3px 2px #fc947b;
+  text-shadow: 3px 2px #fb6762;
+  margin:auto;
+  margin-left: .4in;
+  margin-right: .4in;
+  padding: 25px;
+}
+
+h3 {
+  color: #331E1C;
+  font-family: Georgia;
+  font-size: 24pt;
+  text-align: left;
+  text-shadow: 3px 2px #fa4f49;
   margin:auto;
   margin-left: .4in;
   margin-right: .4in;
@@ -22,11 +35,13 @@ h2 {
 
 html, body {
   font-family: Georgia;
+  background-color: #fee0df;
   margin: 0;
   padding: 0;
   align-items: center;
   alignment: center;
   align-content: center;
+  word-spacing: 2px;
 }
 
 canvas {
@@ -34,7 +49,7 @@ canvas {
   align:center;
   margin:auto;
   border: auto;
-  border-color: #fc947b;
+  border-color: #fa4f49;
   border-width: 6px;
   border-style: solid;
 
@@ -44,35 +59,37 @@ canvas {
   background-color: white;
   color: #331E1C;
   font-family: Georgia;
-  font-size: 16pt;
+  font-size: 19pt;
   text-align: left;
-  padding: 20px;
+  padding: 25px;
   margin-left: .4in;
   margin-right: .4in;
   border: auto;
   border-color: #fcd47b;
   border-width: 8px;
   border-style: groove;
+  word-spacing: 2px;
 }
 ul{
   background-color: white;
   color: #331E1C;
   font-family: Georgia;
-  font-size: 16pt;
+  font-size: 19pt;
   text-align: left;
-  padding: 20px;
-  margin-left: .4in;
-  margin-right: .4in;
+  padding: 25px;
+  margin-left: 35px;
+  margin-right: 25px;
   border: auto;
   border-color: #fcd47b;
   border-width: 8px;
   border-style: groove;
+  word-spacing: 3px;
 }
 
 .strokeSlider {
   font-family: Georgia;
   font-style: oblique;
-  margin-left: 1250px;
+  margin-left: 450px;
 
 }
 

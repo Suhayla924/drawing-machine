@@ -10,23 +10,23 @@ let cnv;
 function setup() {
   cnv = createCanvas(900, 1100);
   cnv.parent("#canvasDiv");
-  background(179, 224, 242);
+  background(254, 251, 198);
   drawBackpaper();
 
-  slider = createSlider(0, 100, 5);
+  slider = createSlider(0, 200, 1);
   slider.class("strokeSlider");
 }
 
 function draw() {
-  background(179, 224, 242, .05); // last number is transparency
+  background(254, 251, 198, .05); // last number is transparency
   //Name Tag Rect.
   fill(185, 244, 255);
   stroke(255, 109, 160);
   strokeWeight(5);
-  fill(185, 244, 255);
+  fill(255, 109, 160);
   stroke(255, 109, 160);
   strokeWeight(5);
-  rect(650, 5, 750, 115);
+  rect(650, 3, 750, 115);
   textSize(35);
   noStroke();
   fill(0, 0, 0);
@@ -80,30 +80,34 @@ function keyTyped() {
   } else if (key === 'c') {
     //clear the Canvas
     clear();
-    background(179, 224, 242);
+    background(254, 251, 198);
     drawBackpaper();
-  } else if (key === 'e') {
+  } else if (key === 'o') {
     //to make rings on the stroke
     stroke(-r, -g, -b, 66);
     noFill();
     circle(mouseX, mouseY, strokeWidth, 40);
-  } //controls for colors//
+  } else if (key === 'u') {
+    //to make circles on the stroke
+    fill(r,g,b,a);
+    circle(mouseX, mouseY, 75);
+  }  //controls for colors//
   else if (key === 'r') {
-    r += 7;
+    r += 8;
   } else if (key === 'g') {
-    g += 7;
+    g += 8;
   } else if (key === 'b') {
-    b += 7;
+    b += 8;
   } else if (key === 'a') {
-    a += 7;
+    a += 10;
   } else if (key === 'w') {
-    r -= 7;
+    r -= 8;
   } else if (key === 'd') {
-    g -= 7;
+    g -= 8;
   } else if (key === 'v') {
-    b -= 7;
-  } else if (key === 'z') {
-    a -= 7;
+    b -= 8;
+  } else if (key === 'f') {
+    a -= 10;
   }
 
 }
